@@ -30,6 +30,7 @@
   section{padding:40px 0}
   h2{font-size:1.4rem;margin:0 0 24px}
   .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px}
+  .card + .card{margin-top:20px}
   .card h3{margin:0 0 6px;font-size:1.3rem}
   .card .sub{color:var(--muted);margin:0 0 16px}
   .tags{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 20px;padding:0;list-style:none}
@@ -45,7 +46,7 @@
   <header>
     <p class="kicker">Portfolio</p>
     <h1>Hi, ich bin <span>Milan Meiners</span>.</h1>
-    <p class="lead">Ich baue eigene Apps und Tools – mit KI als Coding-Partner – und veröffentliche sie hier. Von der Idee bis zur fertigen Android-App.</p>
+    <p class="lead">Ich baue eigene Apps und Tools – mit KI als Coding-Partner – und veröffentliche sie hier. Von der Idee bis zur fertigen Android-App oder zum Desktop-Tool.</p>
     <div class="links">
       <a class="btn primary" href="https://www.linkedin.com/in/milan-meiners-35820b161/" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
@@ -77,6 +78,25 @@
       <div class="links">
         <a class="btn primary" href="https://github.com/milanmeiners/organizer-app/releases/latest" target="_blank" rel="noopener">APK herunterladen</a>
         <a class="btn" href="https://github.com/milanmeiners/organizer-app" target="_blank" rel="noopener">Projekt auf GitHub</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>FPV-Video-Sortierer</h3>
+      <p class="sub">Windows-Tool, das FPV-Drohnenvideos automatisch analysiert und in Behalten, Anschauen und Zum Löschen sortiert.</p>
+      <ul class="features">
+        <li>Erkennt die echte Flugzeit – mindestens 30 Sekunden Flug am Stück</li>
+        <li>Prüft Bildqualität: Helligkeit, Rauschen und Schärfe</li>
+        <li>Bericht mit Kontaktbögen – 12 Vorschaubilder pro Video und Grund der Einstufung</li>
+        <li>Sortiert nach Monat und Tag, Begleitdateien (.SRT, .LRF) wandern mit</li>
+        <li>Löscht nie etwas – nur Verschieben, komplett rückgängig machbar</li>
+      </ul>
+      <ul class="tags">
+        <li>Python</li><li>Tkinter</li><li>NumPy</li><li>Pillow</li><li>FFmpeg</li><li>Windows</li><li>KI-gestützte Entwicklung</li>
+      </ul>
+      <div class="links">
+        <a class="btn primary" href="https://github.com/milanmeiners/FPV_VIDEO_SORTIERER/releases/latest" target="_blank" rel="noopener">Herunterladen</a>
+        <a class="btn" href="https://github.com/milanmeiners/FPV_VIDEO_SORTIERER" target="_blank" rel="noopener">Projekt auf GitHub</a>
       </div>
     </article>
 
